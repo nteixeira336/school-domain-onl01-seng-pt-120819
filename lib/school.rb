@@ -11,11 +11,11 @@ class School
      @roster 
    end 
    
-   def add_student (student, level)
-     if @roster[level] != nil  
-     @roster[level] << student
+   def add_student (student, grade)
+     if @roster[grade] != nil  
+     @roster[grade] << student
    else
-     @roster[level]  = [student]
+     @roster[grade]  = [student]
    end 
    end 
 end 
