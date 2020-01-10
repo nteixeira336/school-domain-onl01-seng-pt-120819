@@ -16,4 +16,5 @@ class School
    else
      @roster[level]= [student]
    end 
+   end 
 end 
