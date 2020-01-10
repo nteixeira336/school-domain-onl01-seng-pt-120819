@@ -11,7 +11,7 @@ class School
    end 
    
    def add_student (student, level)
-     if @roster[level] 
+     if @roster[level]!=nil  
      roster[level] << student 
    end 
 end 
